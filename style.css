@@ -16,7 +16,7 @@
 
 .light {
   --text-color: black;
-  --bg-url: url(./ASSETS/bg-mobile.jpg);
+  --bg-url: url(./ASSETS/bg-mobile-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -199,9 +199,4 @@ footer {
   to {
     left: 0;
   }
-}
-
-#social-links ion-icon {
-  font-size: 24px;
-  color: var(--text-color-black);
 }
