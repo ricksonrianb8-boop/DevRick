@@ -6,7 +6,7 @@
 
 :root {
   --text-color: white;
-  --bg-url: url(./ASSETS/bg-mobile.jpg);
+  --bg-url: url(./assets/bg-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -16,7 +16,7 @@
 
 .light {
   --text-color: black;
-  --bg-url: url(./ASSETS/bg-mobile.jpg1);
+  --bg-url: url(./assets/bg-mobile.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -177,11 +177,11 @@ footer {
 /* media queries */
 @media (min-width: 768px) {
   :root {
-    --bg-url: url(./ASSETS/bg-desktop.jpeg.jpg);
+    --bg-url: url(../assets/bg-desktop.jpg);
   }
 
   .light {
-    --bg-url: url(./ASSETS/bg-desktop-light.jpeg.jpg);
+    --bg-url: url(./assets/bg-light-desktop.jpg);
   }
 } /* animation */
 @keyframes slide-in {
