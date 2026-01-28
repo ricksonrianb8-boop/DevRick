@@ -181,7 +181,7 @@ footer {
   }
 
   .light {
-    --bg-url: url(./ASSETS/bg-light-desktop.jpg);
+    --bg-url: url(./ASSETS/bg-light-desktop.jpeg);
   }
 } /* animation */
 @keyframes slide-in {
